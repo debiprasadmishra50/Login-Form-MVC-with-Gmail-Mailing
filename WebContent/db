@@ -1,0 +1,19 @@
+
+
+conn system/lit
+drop table users;
+
+Create table Users
+(
+	Name 	 varchar2(20),
+	Roll	 number(5),
+	Gender	 varchar2(10),
+	Age		 number(2),
+	Branch	 varchar2(20),
+	Email	 varchar2(50),
+	Password  varchar2(20),
+	Mobile	 number(10),
+	Address	 varchar2(50),
+	Message	 varchar2(50)
+	);
+select * from Users;

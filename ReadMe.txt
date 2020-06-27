@@ -1,0 +1,1 @@
+Run the index.jsp page in WebContent folder in Eclipse IDE
